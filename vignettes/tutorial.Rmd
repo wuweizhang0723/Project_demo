@@ -1,0 +1,20 @@
+---
+title: "Project demo: STAT302package"
+author: "Wuwei Zhang"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{STAT302package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(STAT302package)
+```
